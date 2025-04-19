@@ -1,4 +1,8 @@
-# japanese-llm-inference
-Run Japanese LLMs and see the results in Ruby on Rails.
+# Japanese LLMs for fun and profit
+Run Japanese LLMs on your own machine and have a conversation with instruction tuned models.
 
-The runpod/ directory contains code that you can use for deploying models on [RunPod](https://www.runpod.io/).
+The scripts/ directory contains the scripts for setting up the environment along with Python
+scripts for running the benchmarks in the post:
+
+First, run the file `env_setup.sh` to setup the Python environment. You can then run any Python script
+in the scripts/ folder with the `python` command.
